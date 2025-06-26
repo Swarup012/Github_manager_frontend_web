@@ -16,7 +16,7 @@ export default function GitHubBotApp() {
     setResponse("");
 
     try {
-      const res = await fetch("http://localhost:8000/mcp", {
+      const res = await fetch("https://github-manager-backend.onrender.com/mcp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
