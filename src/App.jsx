@@ -145,7 +145,7 @@ export default function GitHubBotApp() {
             transition={{ repeat: Infinity, duration: 1 }}
             className="text-teal-300 text-center mt-4"
           >
-            🤖 SOLO is thinking...
+            👨‍💼 SOLO is thinking...
           </motion.div>
         ) : (
           response && (
